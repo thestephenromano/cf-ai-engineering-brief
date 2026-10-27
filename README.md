@@ -1,6 +1,6 @@
 # Engineering Brief
 
-Repository: [thestephenromano/cf-ai-engineering-brief](https://github.com/thestephenromano/cf-ai-engineering-brief) (private).
+Repository: [thestephenromano/cf-ai-engineering-brief](https://github.com/thestephenromano/cf-ai-engineering-brief) (public).
 
 An AI planning partner built on Cloudflare. Describe an engineering problem,
 discuss constraints, and review small tasks with observable acceptance criteria.
@@ -125,6 +125,10 @@ To enable deployment:
 
 The workflow declares the Environment; required reviewers and branch protection
 must be configured in GitHub settings. They are not created by a YAML file.
+`main` currently requires one approving review, up-to-date passing CI, and
+resolved discussions; force pushes and branch deletion are blocked. The sole
+owner retains the GitHub admin override. All outside contributors require
+approval before their pull-request workflows run, and have no direct write access.
 Check the repository settings and [Actions runs](https://github.com/thestephenromano/cf-ai-engineering-brief/actions) for the current protection and execution status.
 
 Manual deployment after local verification is also available:
@@ -144,11 +148,10 @@ caller from creating many sessions.
 
 Developed using the local `ai-program` engineering templates and reduced-scope
 Assay workflow. This is an application exercise, not a formally verified system
-or an A0–A3 certification. Local parameterization and evidence records are under
-`docs/validation/`; those records are private and need a disclosure review
-before publishing this working repository. The source code and prompt history
-are available in the private GitHub repository linked above. External reviewers
-need explicit repository access.
+or an A0–A3 certification. Project-specific parameterization and evidence records
+are under `docs/validation/`. The repository, source code, and prompt history
+are public at the owner’s explicit request. The full proprietary Assay program
+is not included.
 
 Original platform references consulted on 2026-10-27:
 

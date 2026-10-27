@@ -1,4 +1,4 @@
-# Local Assay parameterization (private)
+# Project-specific Assay parameterization
 
 Created before application implementation, 2026-10-27. Provisional technical
 name cf-ai-engineering-brief; not a new portfolio brand.
@@ -38,4 +38,4 @@ non-numerical coding exercise. Behavior/property tests are not proofs.
 
 E1 contract; E2 instantiated guidance; E3 synthetic fixtures, not an oracle;
 E4 N/A; E5 scripts/tests/lockfile; E6 no calibrated baseline; E7/E8 local JSON
-ledger; E9 unreleased. Publication of this record is not part of the exercise.
+ledger; E9 unreleased. The owner explicitly requested public repository visibility on 2026-10-27; this project-specific record accompanies that publication.

@@ -57,6 +57,10 @@ Transcription of its relevant requirements:
 
 > create a new GitHUb project, commit and push to it.
 
+## 7. Public visibility and contributor protection (verbatim)
+
+> Set the repo to public, protect the main branches from outside contributors.
+
 ## Implementation iterations (retrospective summary, not additional prompts)
 
 - Read the Cloudflare documentation and local engineering templates; defined
