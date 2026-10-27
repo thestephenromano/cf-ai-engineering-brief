@@ -1,0 +1,17 @@
+{
+  "schema": "assay-findings-register/1",
+  "findings": [
+    {
+      "id": "BRIEF-001",
+      "status": "open",
+      "description": "Cloudflare account authentication is absent. Live inference and hosted deployment have not been exercised.",
+      "retirement_condition": "Authenticate the intended Cloudflare account, deploy the verified revision and record a live turn and persistence check."
+    },
+    {
+      "id": "BRIEF-002",
+      "status": "open",
+      "description": "No GitHub remote, protected branch, environment reviewer policy, or executed workflow run exists for this local exercise. Configured workflows do not establish forge conformance.",
+      "retirement_condition": "Create the approved GitHub repository, configure protection and environment policy, and record successful CI and deployment runs."
+    }
+  ]
+}
