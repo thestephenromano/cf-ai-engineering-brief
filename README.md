@@ -1,5 +1,13 @@
 # Engineering Brief
 
+## Prompt History
+
+See [PROMPTS.md](PROMPTS.md) for the AI-assisted coding prompt history and
+development summary. The application's runtime system prompt is versioned in
+[src/model.ts](src/model.ts).
+
+## Overview
+
 Repository: [thestephenromano/cf-ai-engineering-brief](https://github.com/thestephenromano/cf-ai-engineering-brief) (public).
 
 An AI planning partner built on Cloudflare. Describe an engineering problem,

@@ -61,6 +61,10 @@ Transcription of its relevant requirements:
 
 > Set the repo to public, protect the main branches from outside contributors.
 
+## 8. README prompt history (verbatim)
+
+> Add a "Prompt History" section to the top of the README.
+
 ## Implementation iterations (retrospective summary, not additional prompts)
 
 - Read the Cloudflare documentation and local engineering templates; defined
