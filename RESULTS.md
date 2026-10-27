@@ -48,7 +48,7 @@ synthetic and are not evidence of live inference quality.
   That is an unavailable measurement, not a passed conformance check.
 
 The initial import is delivered through `feature/engineering-brief` into the
-private GitHub repository. This table records the local checks before that import;
+public GitHub repository. This table records the local checks before that import;
 GitHub Actions records subsequent hosted checks against exact commit identities.
 No Cloudflare deployment was performed. Existing repositories, including
 `ai-program`, were not changed.

@@ -13,7 +13,7 @@ Cloudflare Agents owns SQLite persistence and object lifecycle; Workers AI owns 
 
 ## Project Structure
 
-`src/domain.ts`: pure transitions and schemas. `src/model.ts`: inference boundary. `src/server.ts`: Worker and Agent. `src/client.tsx`, `src/styles.css`: browser UI. `tests/`: behavior and runtime integration. `scripts/`: executable gates. `docs/validation/`: private local evidence; no Assay level is claimed. Read README.md, docs/CONTRACT.md and docs/ARCHITECTURE.md first.
+`src/domain.ts`: pure transitions and schemas. `src/model.ts`: inference boundary. `src/server.ts`: Worker and Agent. `src/client.tsx`, `src/styles.css`: browser UI. `tests/`: behavior and runtime integration. `scripts/`: executable gates. `docs/validation/`: project-specific evidence; no Assay level is claimed. Read README.md, docs/CONTRACT.md and docs/ARCHITECTURE.md first.
 
 ## Build, Test, and Development Commands
 
@@ -27,7 +27,7 @@ npm run build
 npm run dev
 ```
 
-`check` runs formatting, ESLint (zero warnings), strict TypeScript and evidence validation. Tests cover domain properties and the actual Workers runtime. The local hook runs format and lint checks only. GitHub Actions adapts the shared check/test/assurance/release stage set into check, test and assurance jobs plus a manual production deployment workflow, as explicitly requested for this assignment. This exercise has a private GitHub repository; hosted runs are recorded in GitHub Actions. There is no released version. Release and forge controls are recorded as unmeasured, never claimed as adopted.
+`check` runs formatting, ESLint (zero warnings), strict TypeScript and evidence validation. Tests cover domain properties and the actual Workers runtime. The local hook runs format and lint checks only. GitHub Actions adapts the shared check/test/assurance/release stage set into check, test and assurance jobs plus a manual production deployment workflow, as explicitly requested for this assignment. This exercise has a public GitHub repository; hosted runs are recorded in GitHub Actions. There is no released version. Release and forge controls are recorded as unmeasured, never claimed as adopted.
 
 ## Design Constraints
 
